@@ -2,43 +2,64 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
-  <title>Joe Records | Mix & Master</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JoeRecords</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>Joe Records</h1>
-    <p>Mix & Master Engineer</p>
-  </header>
+<header class="hero">
+  <h1>JoeRecords</h1>
+  <p>Professional Mix • Master • Produzioni Musicali</p>
+  <a href="#contatti" class="btn">Contattaci</a>
+</header>
 
-  <main>
-    <section class="info">
-      <h2>Chi sono</h2>
-      <p>Sono un ingegnere del suono specializzato in mix e mastering per musica Trap, Rap e Urban.</p>
-    </section>
+<section id="chi-siamo" class="container">
+  <h2>Chi siamo</h2>
+  <p>JoeRecords è uno studio dedicato alla musica di qualità, dal mix al master, fino alla produzione completa di tracce professionali.</p>
+</section>
 
-    <section class="servizi">
-      <h2>Servizi</h2>
-      <ul>
-        <li>Mix professionale</li>
-        <li>Mastering per ogni genere</li>
-        <li>Editing vocale e correzioni</li>
-        <li>Consulenza audio</li>
-      </ul>
-    </section>
+<section id="servizi" class="container">
+  <h2>Servizi</h2>
+  <ul>
+    <li>Mix & Master Professionale</li>
+    <li>Produzione Musicale</li>
+    <li>Consulenze e Coaching</li>
+  </ul>
+</section>
 
-    <section class="contatti">
-      <h2>Contatti</h2>
-      <p>Email: info@joerecords.com</p>
-      <p>Telefono: +39 333 1234567</p>
-      <p>Link social: Instagram / YouTube / TikTok</p>
-    </section>
-  </main>
+<section id="portfolio" class="container">
+  <h2>Portfolio</h2>
+  <p>Progetti con artisti, singoli e collaborazioni in evidenza.</p>
+</section>
 
-  <footer>
-    <p>© 2026 Joe Records. Tutti i diritti riservati.</p>
-  </footer>
+<section id="prezzi" class="container">
+  <h2>Pacchetti</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Mix Base</h3>
+      <p>€80 – Mix voce + beat + master base</p>
+    </div>
+    <div class="card">
+      <h3>Pro</h3>
+      <p>€200 – Mix professionale + master avanzato</p>
+    </div>
+  </div>
+</section>
+
+<section id="contatti" class="container">
+  <h2>Contattaci</h2>
+  <form action="mailto:tuo@email.com" method="POST">
+    <input type="text" name="nome" placeholder="Nome" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="messaggio" placeholder="Messaggio..." required></textarea>
+    <button type="submit">Invia</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 JoeRecords</p>
+</footer>
 
 </body>
 </html>
